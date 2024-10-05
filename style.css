@@ -13,6 +13,11 @@
     text-align:center;
 }
 
+.sec-new{
+display: flex;
+flex-direction: column;
+}
+
 #now{
     color: #fff;
     background-color: #562b81;
