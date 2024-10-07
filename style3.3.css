@@ -52,7 +52,7 @@ body {
 
 .nav-bar div {
     background-color: #3faedc;
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin: 5px;
     color: white;
     text-align: center;
@@ -178,12 +178,12 @@ body {
 
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
 .button {
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: #dae0e4;
     color: #1D598A;
     text-align: center;
