@@ -10,9 +10,10 @@
 
 <body>
 
+<header> 
     <div class="header">
         <div class="logo">
-            <img src="logo.png" alt="Логотип">
+            <img src="./Images/3.3logo.png" alt="logo">
             <h1>Навчальний центр навчання - IT</h1>
         </div>
         <div class="working-hours">
@@ -20,8 +21,8 @@
         </div>
     </div>
 
-    <!-- Навігаційна панель у вигляді блоків -->
-    <div class="nav-bar">
+   
+    <nav class="nav-bar">
         <div>Головна</div>
         <div>Акції</div>
         <div>Курси</div>
@@ -29,10 +30,15 @@
         <div>Контакти</div>
         <div>Ціни</div>
         <div>Блог</div>
-    </div>
+    </nav>
+</header> 
+
+
+<main>
+    <div class="all">
 
     <div class="container">
-        <!-- Меню з курсами -->
+    
         <div class="nav">
             <ul>
                 <li>Курси інженерного графіки</li>
@@ -49,46 +55,52 @@
             </ul>
         </div>
 
-        <!-- Основний контент з додаванням знаків окликів -->
+      
         <div class="content">
-            <h2>Нова форма навчання</h2>
-            <ul>
-                <li><img src="exclamation.png" alt="!" height="20">Вибір будь-якого часу курсу.</li>
-                <li><img src="exclamation.png" alt="!" height="20">Проведення занять безпосередньо у слухача на дому або в офісі.</li>
-                <li><img src="exclamation.png" alt="!" height="20">Навчання за індивідуальною програмою.</li>
-                <li><img src="exclamation.png" alt="!" height="20">Безкоштовна установка ПО на ваш ноутбук або комп'ютер.</li>
+           <p id="content"> <img src="./Images/3.3group.png" alt="!" height="20"> Нова форма навчання</p>
+            <p class="color">.</p>
+           <ul>
+                <li ><img src="./Images/3.3info1.png" alt="!" height="20"><b>Вибір будь-якого часу курсу.</b></li>
+                <li> Проведення занять безпосередньо у слухача <b>на дому або в офісі</b> </li>
+                <li><img src="./Images/3.3info2.png" alt="!" height="20"><b>Навчання за індивідуальною програмою.</b></li>
+                <li> Вчити тільки те, що вам потрібно. Програма підбирається під вас! </li>
+                <li><img src="./Images/3.3info3.png" alt="!" height="20"><b>Безкоштовна установка ПО на ваш ноутбук або комп'ютер.</b></li>
+                <li> Викладач встановить, а також налаштує потрібну програму для виконання домашнього завдання. </li>
+
             </ul>
         </div>
 
-        <!-- Бічна панель -->
         <div class="sidebar">
             <h3>Знайти курс по інтересам</h3>
-            <p>Скористайтеся пошуком, щоб знайти потрібний курс або подивіться всі курси:</p>
+            <p class="color2">.</p>
+            <p>Скористайтеся пошуком, щоб знайти потрібний курс або подивіться <a href="#3.3.html" style="color: white;">всі курси</a>:</p>
             <input type="text" placeholder="Пошук курсів..." style="width: 100%; padding: 10px; margin-top: 10px;">
-            <button style="width: 100%; padding: 10px; background-color: #3380B7; color: white; border: none; margin-top: 10px;">Пошук курсу</button>
         </div>
+        
     </div>
+</div>
 
-    <!-- Курс по web-програмуванню -->
+
+
     <div class="courses">
+        <div> <img src="./Images/3.3.web.jpg" alt="Web Programming"></div>
         <div class="course-block">
-            <img src="web-programming.jpg" alt="Web Programming">
             <h2>Курси web-програмування в Києві</h2>
-            <p>Ми шукаємо всіх тих, кому цікавий світ програмування! Хочете займатися розробкою програмного забезпечення і побудовою веб-сайтів? Долучайтесь до нас!</p>
+            <p class="color3">.</p>
+            <p style="text-align: justify;">Ми шукаємо всіх тих, кому цікавий світ програмування! Хочете займатися розробкою програмного забезпечення і побудовою web сайтів? А, може, Ви вже робите все це і жадаєте додаткових знань або вирішили підвищити свою кваліфікацію? Не біда, якщо ніколи і не пробували себе в подібному команда ІТ готова надавати свої послуги людям будь-якого рівня знань. Якщо наші клієнти новачки, то ми почнемо заняття з основ, а якщо ж просунуті користувачі, то вони починатимуть навчання 3, більш, складного матеріалу, при цьому, не зупиняючись на тому, що їм давно відомо. Теми для проведення занять дозволено вибирати на свій розсуд.</p>
         </div>
     </div>
 
-    <!-- Кнопки -->
+  
     <div class="buttons">
         <a href="#" class="button">Ми на мапі</a>
         <a href="#" class="button">Зв'язок з нами</a>
         <a href="#" class="button">Корисні посилання</a>
         <a href="#" class="button">Популярне на блозі</a>
     </div>
+</main>
 
-    <!-- Футер -->
-    <div class="footer">
-        <p>&copy; 2024 Навчальний центр навчання - IT</p>
-    </div>
+<footer>  </footer>
+
 </body>
 </html>
